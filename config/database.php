@@ -4,7 +4,7 @@ class Database {
     private $host = 'localhost';
     private $db_name = 'site_mvc';
     private $username = 'root';
-    private $password = '';
+    private $password = 'root';
     private $conn;
 
     public function connect() {
