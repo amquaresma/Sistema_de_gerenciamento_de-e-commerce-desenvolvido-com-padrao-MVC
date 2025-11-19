@@ -1,0 +1,29 @@
+Antes de começar a codificar, reserve um tempo para entender a arquitetura MVC:
+
+Model: É aqui que reside sua lógica de dados. Ele interage com o banco de dados e define como os dados são estruturados.
+View: Esta é a interface do usuário do seu aplicativo. Ele exibe os dados para o usuário e envia comandos do usuário para o controlador.
+Controller: Atua como um intermediário entre o Model e a View. Ele processa a entrada do usuário, interage com o modelo e atualiza a exibição de acordo.
+2. Criar o banco de dados
+Projete seu esquema de banco de dados com base nos dados que você deseja gerenciar. Considere o seguinte:
+Quais tabelas você precisa?
+Quais campos cada tabela conterá?
+Que relações existem entre as tabelas?
+Use comandos SQL para criar seu banco de dados e tabelas. Certifique-se de documentar esses comandos em seu arquivo README.
+3. Desenvolva o site
+Model: Crie os arquivos de modelo que lidarão com as interações do banco de dados. Isso inclui funções para cada operação CRUD.
+View: Projete a interface do usuário. Crie formulários HTML para entrada de dados e exiba áreas para mostrar os dados existentes. Certifique-se de que seus formulários sejam fáceis de usar e visualmente atraentes.
+Controller: Escreva a lógica do controlador que lidará com as solicitações do usuário. Isso inclui:
+Receber informações dos formulários.
+Chamar as funções de modelo apropriadas para executar operações CRUD.
+Redirecionando os usuários para as visualizações corretas após a execução das ações.
+4. Implementar a funcionalidade CRUD
+Certifique-se de que cada operação CRUD esteja totalmente funcional:
+Criar: os usuários devem ser capazes de enviar um formulário para adicionar novos dados.
+Ler: Exibe os dados existentes em um formato de lista ou tabela.
+Atualizar: Fornece uma maneira para os usuários editarem as entradas existentes.
+Excluir: Permite que os usuários removam entradas do banco de dados.
+5. Teste
+Teste seu site para garantir que todas as funcionalidades funcionem conforme o esperado. Verifique:
+Validação de formulário (por exemplo, campos obrigatórios, tipos de dados corretos).
+Tratamento de erros (por exemplo, o que acontece se um usuário tentar excluir uma entrada inexistente).
+Experiência do usuário (por exemplo, o site é fácil de navegar?).
