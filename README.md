@@ -184,7 +184,9 @@ O sistema é totalmente responsivo e funciona perfeitamente em:
 ## 📄 Licença
 
 Este projeto foi desenvolvido para fins educacionais.
-
+Matheus Rodrigues Quaresma
+Maria Fernanda Munakata Arevalo
+Pedro Vincentin Jacobetti Guimarães
 ---
 
 **Desenvolvido com PHP, MySQL, HTML, CSS e JavaScript**
