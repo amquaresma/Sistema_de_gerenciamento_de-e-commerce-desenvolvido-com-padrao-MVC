@@ -187,6 +187,7 @@ Este projeto foi desenvolvido para fins educacionais.
 Matheus Rodrigues Quaresma
 Maria Fernanda Munakata Arevalo
 Pedro Vincentin Jacobetti Guimarães
+Tales Jardim
 ---
 
 **Desenvolvido com PHP, MySQL, HTML, CSS e JavaScript**
